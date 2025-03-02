@@ -42,12 +42,12 @@ function validate(guess) {
 
 function checknumber(guess) {
     if (guess === numbers) {
-        displayMessage('🎉 You guessed it right!');
+        displayMessage(' You guessed it right!');
         endgame();
     } else if (guess > numbers) {
-        displayMessage('📉 Number is too high');
+        displayMessage(' Number is too high');
     } else if (guess < numbers) {
-        displayMessage('📈 Number is too low');
+        displayMessage('     Number is too low');
     }
 }
 

@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1e1e2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.wrapper {
+    max-width: 500px;
+    background: #282a36;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: cyan;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+
+.form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.GuessField {
+    width: 80%;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: #44475a;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px cyan;
+    transition: 0.3s;
+}
+
+.GuessField:focus {
+    box-shadow: 0 0 10px cyan;
+}
+
+
+.guesssubmit {
+    margin-top: 15px;
+    width: 85%;
+    padding: 12px;
+    font-size: 18px;
+    background: cyan;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1e1e2e;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.guesssubmit:hover {
+    background: #00bcd4;
+    box-shadow: 0 0 10px cyan;
+}
+
+
+.resultParas {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.loworhigh {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.button {
+    margin-top: 20px;
+    display: inline-block;
+    background: cyan;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #1e1e2e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #00bcd4;
+    box-shadow: 0 0 10px cyan;
+}
+
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .GuessField {
+        width: 100%;
+    }
+
+    .guesssubmit {
+        width: 100%;
+    }
+}

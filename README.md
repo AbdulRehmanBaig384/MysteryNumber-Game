@@ -1,3 +1,5 @@
+<img width="1887" height="892" alt="image" src="https://github.com/user-attachments/assets/de248cb3-a429-4e78-84de-53f42ebb902f" />
+
 🎯 Guess-Number 🎲
 
 A fun and interactive number-guessing game! Can you guess the right number?

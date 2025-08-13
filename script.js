@@ -5,12 +5,10 @@ const remaining = document.querySelector('.lastresult');
 const loworhi = document.querySelector('.loworhigh');
 const start = document.querySelector('.resultParas');
 let numbers = Math.round(Math.random() * 100 + 1);
-
 const p = document.createElement('p');
 let previous_guess = [];
 let numGuess = 1;
 let Playgame = true;
-
 if (Playgame) {
     submit.addEventListener('click', function (e) {
         e.preventDefault();
@@ -18,11 +16,10 @@ if (Playgame) {
         validate(guess);
     });
 }
-
 function validate(guess) {
     if (isNaN(guess)) {
-        alert("Please enter a valid number");
-    } else if (guess < 1) {
+        alert("Please enter a valid number");} 
+    else if (guess < 1) {
         alert("Please enter a number greater than 1");
     } else if (guess > 100) {
         alert("Please enter a number less than 100");

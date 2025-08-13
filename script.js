@@ -41,18 +41,14 @@ function checknumber(guess) {
         displayMessage('     Number is too low');
     }
 }
-
 function displayguess(guess) {
     user_input.value = '';
     guess_opo.innerHTML += `${guess}, `;
     numGuess++;
-    remaining.innerHTML = `${11 - numGuess}`;
-}
-
+    remaining.innerHTML = `${11 - numGuess}`;}
 function displayMessage(message) {
     loworhi.innerHTML = `<h2>${message}</h2>`;
 }
-
 function endgame() {
     user_input.value = '';
     user_input.setAttribute('disabled', 'true');

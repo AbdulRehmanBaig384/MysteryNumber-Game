@@ -14,26 +14,22 @@ if (Playgame) {
         e.preventDefault();
         const guess = parseInt(user_input.value);
         validate(guess);
-    });
-}
+    });}
 function validate(guess) {
     if (isNaN(guess)) {
         alert("Please enter a valid number");} 
     else if (guess < 1) {
-        alert("Please enter a number greater than 1");
-    } else if (guess > 100) {
-        alert("Please enter a number less than 100");
-    } else {
+        alert("Please enter a number greater than 1");}
+    else if (guess > 100) {
+        alert("Please enter a number less than 100");}
+    else {
         previous_guess.push(guess);
         displayguess(guess);
-        checknumber(guess);
-        
+        checknumber(guess);    
         if (numGuess === 10) {
             displayMessage(`Game Over! The Random Number was ${numbers}`);
             endgame();
-        }
-    }
-}
+        }}}
 
 function checknumber(guess) {
     if (guess === numbers) {

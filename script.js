@@ -5,7 +5,6 @@ const remaining = document.querySelector('.lastresult');
 const loworhi = document.querySelector('.loworhigh');
 const start = document.querySelector('.resultParas');
 let numbers = Math.round(Math.random() * 100 + 1);
-// console.log(numbers)
 
 const p = document.createElement('p');
 let previous_guess = [];

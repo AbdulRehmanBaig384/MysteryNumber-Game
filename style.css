@@ -21,23 +21,20 @@ h1 {
     margin-bottom: 10px;
     color: cyan;
 }
-p {
+p{
     font-size: 16px;
     line-height: 1.6;
     margin: 10px 0;
 }
-
 .form {
     margin-top: 20px;
 }
-
 label {
     font-size: 18px;
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
-
 .GuessField {
     width: 80%;
     padding: 12px;
@@ -51,12 +48,9 @@ label {
     box-shadow: 0 0 5px cyan;
     transition: 0.3s;
 }
-
 .GuessField:focus {
     box-shadow: 0 0 10px cyan;
 }
-
-
 .guesssubmit {
     margin-top: 15px;
     width: 85%;

@@ -6,7 +6,6 @@ body {
     text-align: center;
     padding: 20px;
 }
-
 .wrapper {
     max-width: 500px;
     background: #282a36;
@@ -15,7 +14,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
     margin: auto;
 }
-
 h1 {
     font-size: 24px;
     font-weight: bold;
